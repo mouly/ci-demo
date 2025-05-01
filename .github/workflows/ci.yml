@@ -2,7 +2,7 @@ name: Lint and Test
 
 on:
   push:
-    branches: [main]
+    branches: [ "*" ]  # Runs on all branches
   pull_request:
     branches: [main]
 
